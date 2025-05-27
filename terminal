@@ -1,0 +1,13 @@
+mkdir jewellery-seller
+cd jewellery-seller
+mkdir frontend backend 
+cd backend
+npm init -y
+npm install express mysql2 bcryptjs jsonwebtoken cors dotenv winston express-validator 
+cd ../frontend
+npx create-react-app .
+npm install @tailwindcss/forms @heroicons/react axios react-router-dom @headlessui/react
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p 
+npm install jspdf jspdf-autotable 
+npm install chart.js react-chartjs-2 
